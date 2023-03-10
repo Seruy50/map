@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+
+.map {
+  position: relative;
+  background-image: url(./map.jpg);
+  height: 885px;
+  width: 1150px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.information {
+  position: absolute;
+  width: 300px;
+  background-color: #fff;
+  z-index:6;
+  border: 10px solid red;
+  top: 150px;
+  right: -320px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 50px;
+  height: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.close span {
+  display: block;
+  position: absolute;
+  border: 3px solid black;
+  width: 40px;
 }
 
-.App-link {
-  color: #61dafb;
+.close span:first-child{
+  transform: rotate(45deg);
+  margin-top: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.close span:last-child{
+  transform: rotate(-45deg);
+  margin-top: 20px;
 }
+
+.textBlock{
+  margin-top: 50px;
+}
+
+p{
+  border: 2px solid green;
+}
+
+.villagesSpan{
+  display: block;
+  position: absolute;
+  border: 10px solid black;
+  border: black 10px solid;
+  border-radius: 50%;
+  z-index: 4;
+  width: 50px;
+  height: 50px;
+}
+
+.villagesSpan:hover {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: blue;
+  z-index: 6;
+}
+
+.villagesSpan:active {
+  width: 60px;
+  height: 60px;
+  background-color: orange;
+}
+
+
+.yellow {
+  border: none;
+  background-color: yellow;
+  z-index: 5;
+}
+
+.red {
+  border: none;
+  background-color: red;
+  z-index: 5;
+}
+
+.greenRed {
+  background-color: red;
+  z-index: 5;
+  border: 10px green solid;
+  box-sizing: border-box;
+}
+
+.greenYellow{
+  background-color: yellow;
+  z-index: 5;
+  border: 10px green solid;
+  box-sizing: border-box;
+}
+
