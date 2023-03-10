@@ -29,10 +29,10 @@ function Information({villages, id, setShow }){
     </div>
     <div className="textBlock">
       <p><b>{village.name}</b></p>
-      {village.transcription}
+      {village.transcription ? village.transcription : ''}
       {village.note ? village.note : ''}
       {village.plus ? village.plus : ''}
-      <ReactAudioPlayer src={village.audio} controls/>
+      {village.audio ? <ReactAudioPlayer src={village.audio} controls/> : ''}
     </div>
   </div>
 }
