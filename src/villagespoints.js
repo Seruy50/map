@@ -1,89 +1,91 @@
 import React from 'react';
 import './App.css'
+import map from './map.jpg'
 
 
-export function VillagesPoints({setShow, show, currentId, setCurrentId}){
+export function VillagesPoints({setShow, setCurrentId}){
+    
 
     const currentInfo = (id) => {
         setCurrentId(id);
         setShow(true);
-        console.log(show);
-        console.log(currentId)
+
       }
+
     
   return <div className="map">
-    <Village typeOfMarker='red' top={4} left={375} currentInfo={currentInfo} id={1}/>
-    <Village typeOfMarker='greenYellow' top={33} left={480} currentInfo={currentInfo} id={2}/>
-    <Village typeOfMarker='red' top={60} left={609} currentInfo={currentInfo} id={3}/>
-    <Village typeOfMarker='red' top={0} left={690} currentInfo={currentInfo} id={4}/>
-    <Village typeOfMarker='greenYellow' top={33} left={755} currentInfo={currentInfo} id={5}/>
-    <Village typeOfMarker='yellow' top={53} left={895} currentInfo={currentInfo} id={6}/>
-    <Village typeOfMarker='greenRed' top={210} left={130} currentInfo={currentInfo} id={7}/>
-    <Village typeOfMarker='red' top={185} left={240} currentInfo={currentInfo} id={8}/>
-    <Village typeOfMarker='red' top={175} left={305} currentInfo={currentInfo} id={9}/>
-    <Village typeOfMarker='greenRed' top={210} left={345} currentInfo={currentInfo} id={10}/>
-    <Village typeOfMarker='red' top={235} left={425} currentInfo={currentInfo} id={11}/>
-    <Village typeOfMarker='yellow' top={200} left={520} currentInfo={currentInfo} id={12}/>
-    <Village typeOfMarker='greenRed' top={200} left={620} currentInfo={currentInfo} id={13}/>
-    <Village typeOfMarker='greenRed' top={250} left={690} currentInfo={currentInfo} id={14}/>
-    <Village typeOfMarker='greenRed' top={200} left={790} currentInfo={currentInfo} id={15}/>
-    <Village typeOfMarker='red' top={190} left={890} currentInfo={currentInfo} id={16}/>
-    <Village typeOfMarker='red' top={170} left={980} currentInfo={currentInfo} id={17}/>
-    <Village typeOfMarker='yellow' top={190} left={1060} currentInfo={currentInfo} id={18}/>
-    <Village typeOfMarker='red' top={290} left={170} currentInfo={currentInfo} id={19}/>
-    <Village typeOfMarker='yellow' top={300} left={270} currentInfo={currentInfo} id={20}/>
-    <Village typeOfMarker='red' top={300} left={360} currentInfo={currentInfo} id={21}/>
-    <Village typeOfMarker='yellow' top={340} left={420} currentInfo={currentInfo} id={22}/>
-    <Village typeOfMarker='greenRed' top={300} left={510} currentInfo={currentInfo} id={23}/>
-    <Village typeOfMarker='greenRed' top={320} left={580} currentInfo={currentInfo} id={24}/>
-    <Village typeOfMarker='greenRed' top={345} left={659} currentInfo={currentInfo} id={25}/>
-    <Village typeOfMarker='greenRed' top={340} left={757} currentInfo={currentInfo} id={26}/>
-    <Village typeOfMarker='greenRed' top={285} left={870} currentInfo={currentInfo} id={27}/>
-    <Village typeOfMarker='greenRed' top={346} left={880} currentInfo={currentInfo} id={28}/>
-    <Village typeOfMarker='red' top={320} left={957} currentInfo={currentInfo} id={29}/>
-    <Village typeOfMarker='greenRed' top={400} left={940} currentInfo={currentInfo} id={30}/>
-    <Village typeOfMarker='greenRed' top={447} left={990} currentInfo={currentInfo} id={31}/>
-    <Village typeOfMarker='greenRed' top={320} left={1050} currentInfo={currentInfo} id={32}/>
-    <Village typeOfMarker='greenRed' top={420} left={1100} currentInfo={currentInfo} id={33}/>
-    <Village typeOfMarker='yellow' top={257} left={1100} currentInfo={currentInfo} id={34}/>
-    <Village typeOfMarker='NOONTHEMAP' top={0} left={0} currentInfo={currentInfo} id={35}/>
-    <Village typeOfMarker='yellow' top={376} left={220} currentInfo={currentInfo} id={36}/>
-    <Village typeOfMarker='red' top={400} left={321} currentInfo={currentInfo} id={37}/>
-    <Village typeOfMarker='yellow' top={420} left={440} currentInfo={currentInfo} id={38}/>
-    <Village typeOfMarker='yellow' top={448} left={548} currentInfo={currentInfo} id={39}/>
-    <Village typeOfMarker='red' top={440} left={659} currentInfo={currentInfo} id={40}/>
-    <Village typeOfMarker='red' top={450} left={750} currentInfo={currentInfo} id={41}/>
-    <Village typeOfMarker='NOONTHEMAP' top={0} left={0} currentInfo={currentInfo} id={42}/>
-    <Village typeOfMarker='greenRed' top={450} left={840} currentInfo={currentInfo} id={43}/>
-    <Village typeOfMarker='red' top={540} left={980} currentInfo={currentInfo} id={44}/>
-    <Village typeOfMarker='yellow' top={630} left={1040} currentInfo={currentInfo} id={45}/>
-    <Village typeOfMarker='red' top={567} left={1090} currentInfo={currentInfo} id={46}/>
-    <Village typeOfMarker='greenRed' top={380} left={1030} currentInfo={currentInfo} id={47}/>
-    <Village typeOfMarker='yellow' top={720} left={960} currentInfo={currentInfo} id={48}/>
-    <Village typeOfMarker='greenRed' top={600} left={943} currentInfo={currentInfo} id={49}/>
-    <Village typeOfMarker='yellow' top={650} left={830} currentInfo={currentInfo} id={50}/>
-    <Village typeOfMarker='red' top={745} left={800} currentInfo={currentInfo} id={51}/>
-    <Village typeOfMarker='yellow' top={815} left={780} currentInfo={currentInfo} id={52}/>
-    <Village typeOfMarker='yellow' top={550} left={700} currentInfo={currentInfo} id={53}/>
-    <Village typeOfMarker='greenRed' top={520} left={800} currentInfo={currentInfo} id={54}/>
-    <Village typeOfMarker='greenRed' top={620} left={695} currentInfo={currentInfo} id={55}/>
-    <Village typeOfMarker='red' top={580} left={570} currentInfo={currentInfo} id={56}/>
-    <Village typeOfMarker='red' top={630} left={600} currentInfo={currentInfo} id={57}/>
-    <Village typeOfMarker='yellow' top={520} left={380} currentInfo={currentInfo} id={58}/>
-    <Village typeOfMarker='greenYellow' top={710} left={1100} currentInfo={currentInfo} id={59}/>
-    <Village typeOfMarker='yellow' top={770} left={1017} currentInfo={currentInfo} id={60}/>
-    <Village typeOfMarker='yellow' top={810} left={1090} currentInfo={currentInfo} id={61}/>
-    <Village typeOfMarker='red' top={760} left={580} currentInfo={currentInfo} id={62}/>
-    <Village typeOfMarker='red' top={700} left={410} currentInfo={currentInfo} id={63}/>
-    <Village typeOfMarker='red' top={700} left={550} currentInfo={currentInfo} id={64}/>
-    <Village typeOfMarker='yellow' top={720} left={460} currentInfo={currentInfo} id={65}/>
-    <Village typeOfMarker='yellow' top={740} left={250} currentInfo={currentInfo} id={66}/>
-    <Village typeOfMarker='yellow' top={820} left={620} currentInfo={currentInfo} id={67}/>
+    <img src={map} alt="noMap"></img>
+    <Village typeOfMarker='red' top={0.5} left={32} currentInfo={currentInfo} id={1} villageName={'Зоря'} />
+    <Village typeOfMarker='greenYellow' top={3} left={41} currentInfo={currentInfo} id={2}/>
+    <Village typeOfMarker='red' top={6} left={52} currentInfo={currentInfo} id={3}/>
+    <Village typeOfMarker='red' top={0} left={60} currentInfo={currentInfo} id={4}/>
+    <Village typeOfMarker='greenYellow' top={3} left={65} currentInfo={currentInfo} id={5}/>
+    <Village typeOfMarker='yellow' top={5} left={77} currentInfo={currentInfo} id={6}/>
+    <Village typeOfMarker='greenRed' top={22} left={12} currentInfo={currentInfo} id={7}/>
+    <Village typeOfMarker='red' top={20} left={20} currentInfo={currentInfo} id={8}/>
+    <Village typeOfMarker='red' top={18} left={27} currentInfo={currentInfo} id={9}/>
+    <Village typeOfMarker='greenRed' top={23} left={30} currentInfo={currentInfo} id={10}/>
+    <Village typeOfMarker='red' top={25} left={37} currentInfo={currentInfo} id={11}/>
+    <Village typeOfMarker='yellow' top={22} left={45} currentInfo={currentInfo} id={12}/>
+    <Village typeOfMarker='greenRed' top={23} left={54} currentInfo={currentInfo} id={13}/>
+    <Village typeOfMarker='greenRed' top={27} left={60} currentInfo={currentInfo} id={14}/>
+    <Village typeOfMarker='greenRed' top={22} left={69} currentInfo={currentInfo} id={15}/>
+    <Village typeOfMarker='red' top={21} left={77} currentInfo={currentInfo} id={16}/>
+    <Village typeOfMarker='red' top={19} left={85} currentInfo={currentInfo} id={17}/>
+    <Village typeOfMarker='yellow' top={20} left={92} currentInfo={currentInfo} id={18}/>
+    <Village typeOfMarker='red' top={32} left={15} currentInfo={currentInfo} id={19}/>
+    <Village typeOfMarker='yellow' top={33} left={23} currentInfo={currentInfo} id={20}/>
+    <Village typeOfMarker='red' top={33} left={32} currentInfo={currentInfo} id={21}/>
+    <Village typeOfMarker='yellow' top={37} left={36} currentInfo={currentInfo} id={22}/>
+    <Village typeOfMarker='greenRed' top={33} left={45} currentInfo={currentInfo} id={23}/>
+    <Village typeOfMarker='greenRed' top={36} left={50} currentInfo={currentInfo} id={24}/>
+    <Village typeOfMarker='greenRed' top={39} left={57} currentInfo={currentInfo} id={25}/>
+    <Village typeOfMarker='greenRed' top={38} left={65} currentInfo={currentInfo} id={26}/>
+    <Village typeOfMarker='greenRed' top={33} left={75} currentInfo={currentInfo} id={27}/>
+    <Village typeOfMarker='greenRed' top={38} left={76} currentInfo={currentInfo} id={28}/>
+    <Village typeOfMarker='red' top={37} left={83} currentInfo={currentInfo} id={29}/>
+    <Village typeOfMarker='greenRed' top={45} left={82} currentInfo={currentInfo} id={30}/>
+    <Village typeOfMarker='greenRed' top={49} left={86} currentInfo={currentInfo} id={31}/>
+    <Village typeOfMarker='greenRed' top={36} left={92} currentInfo={currentInfo} id={32}/>
+    <Village typeOfMarker='greenRed' top={47} left={95} currentInfo={currentInfo} id={33}/>
+    <Village typeOfMarker='yellow' top={30} left={96} currentInfo={currentInfo} id={34}/>
+    <Village typeOfMarker='yellow' top={42} left={19} currentInfo={currentInfo} id={36}/>
+    <Village typeOfMarker='red' top={45} left={27} currentInfo={currentInfo} id={37}/>
+    <Village typeOfMarker='yellow' top={47} left={38} currentInfo={currentInfo} id={38}/>
+    <Village typeOfMarker='yellow' top={51} left={47} currentInfo={currentInfo} id={39}/>
+    <Village typeOfMarker='red' top={49} left={57} currentInfo={currentInfo} id={40}/>
+    <Village typeOfMarker='red' top={51} left={65} currentInfo={currentInfo} id={41}/>
+    <Village typeOfMarker='greenRed' top={52} left={73} currentInfo={currentInfo} id={43}/>
+    <Village typeOfMarker='red' top={62} left={85} currentInfo={currentInfo} id={44}/>
+    <Village typeOfMarker='yellow' top={69} left={90} currentInfo={currentInfo} id={45}/>
+    <Village typeOfMarker='red' top={64} left={95} currentInfo={currentInfo} id={46}/>
+    <Village typeOfMarker='greenRed' top={44} left={90} currentInfo={currentInfo} id={47}/>
+    <Village typeOfMarker='yellow' top={81} left={84} currentInfo={currentInfo} id={48}/>
+    <Village typeOfMarker='greenRed' top={68} left={82} currentInfo={currentInfo} id={49}/>
+    <Village typeOfMarker='yellow' top={72} left={72} currentInfo={currentInfo} id={50}/>
+    <Village typeOfMarker='red' top={85} left={69} currentInfo={currentInfo} id={51}/>
+    <Village typeOfMarker='yellow' top={91} left={67} currentInfo={currentInfo} id={52}/>
+    <Village typeOfMarker='yellow' top={61} left={60} currentInfo={currentInfo} id={53}/>
+    <Village typeOfMarker='greenRed' top={59} left={70} currentInfo={currentInfo} id={54}/>
+    <Village typeOfMarker='greenRed' top={70} left={60} currentInfo={currentInfo} id={55}/>
+    <Village typeOfMarker='red' top={66} left={50} currentInfo={currentInfo} id={56}/>
+    <Village typeOfMarker='red' top={71} left={52} currentInfo={currentInfo} id={57}/>
+    <Village typeOfMarker='yellow' top={59} left={34} currentInfo={currentInfo} id={58}/>
+    <Village typeOfMarker='greenYellow' top={80} left={96} currentInfo={currentInfo} id={59}/>
+    <Village typeOfMarker='yellow' top={86} left={88} currentInfo={currentInfo} id={60}/>
+    <Village typeOfMarker='yellow' top={91} left={95} currentInfo={currentInfo} id={61}/>
+    <Village typeOfMarker='red' top={87} left={50} currentInfo={currentInfo} id={62}/>
+    <Village typeOfMarker='red' top={78} left={36} currentInfo={currentInfo} id={63}/>
+    <Village typeOfMarker='red' top={79} left={48} currentInfo={currentInfo} id={64}/>
+    <Village typeOfMarker='yellow' top={81} left={41} currentInfo={currentInfo} id={65}/>
+    <Village typeOfMarker='yellow' top={83} left={22} currentInfo={currentInfo} id={66}/>
+    <Village typeOfMarker='yellow' top={92} left={54} currentInfo={currentInfo} id={67}/>
   </div>
 }
 
 
 
 function Village({top, left, typeOfMarker, currentInfo, id}){
-    return <span className={typeOfMarker + ' villagesSpan'} style={{top: top + 'px', left: left + 'px'}} onClick={() => currentInfo(id)}></span>
+    return <span className={typeOfMarker + ' villagesSpan'}  style={{top: top + '%', left: left + '%'}} onClick={() => currentInfo(id)}></span>
+    
   }
