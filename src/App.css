@@ -40,7 +40,8 @@ h1 {
 }
 
 .legend div:last-child div:first-child span {
-  margin-top: 15px;
+  margin-top: 5px;
+  margin-left: 2px;
 }
 
 .legend div:last-child div:last-child p {
@@ -48,7 +49,7 @@ h1 {
   align-items: center;
   margin-top: 20px;
   font: 20px/20px arial;
-  margin-left: 11px;
+  margin-left: 12px;
 }
 
 .legendText {
@@ -129,15 +130,19 @@ img {
 
 .infoTitle {
   text-align: center;
+  font: 23px/24px times;
 }
 
 .infoTrans {
   text-align: center;
+  font: 20px/20px times;
 }
 
 .infoNote, .infoPlus{
   text-align: justify;
   text-indent: 35px;
+  font: 18px/21px times;
+
 }
 
 /*information block end*/
@@ -176,16 +181,16 @@ img {
 
 .greenRed {
 
-  background: linear-gradient(to right, red 50%, yellow 50%);
+  background: red;
   z-index: 5;
-  border: rgb(166, 155, 195) 1px solid;
+  border: 7px solid green;
   box-sizing: border-box;
 }
 
 .greenYellow{
-  background: linear-gradient(to right, yellow 50%, red 50%);
+  background: yellow;
   z-index: 5;
-  border: 1px solid rgb(166, 155, 195);
+  border: 7px solid green;
   box-sizing: border-box;
 }
 

@@ -9,12 +9,10 @@ export default function App(){
   const [currentId, setCurrentId] = useState(1);
   const [show, setShow] = useState(false)
 
-  let title = 'Карта №1. Перехід [е < *е] > [а] в наголошеній позиції'
-
   
 
   return <div>
-         <h1>{title}</h1>
+         <h1>{'Карта №1. Перехід [е < '}<i>{'*е'}</i>{'] > [а] в наголошеній позиції'}</h1>
          <div className="main"> 
             <div className="mapField">
               <VillagesPoints setShow={setShow} setCurrentId={setCurrentId} show={show} currentId={currentId}/>

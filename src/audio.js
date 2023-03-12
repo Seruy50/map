@@ -26,11 +26,12 @@ import trybki from './audio/55. trybki.wav'
 import samovola from './audio/56. samovola.wav'
 import movnyki from './audio/58. movnyki.wav'
 import merva from './audio/60. merva.wav'
+import brany from './audio/brany.wav'
 
 
 export {
     zora, susval, svichev, zubylne, ludyn, izov, hotaciv, vochatun, zymne, jakovychi,
     hubyn, totchyn, buzhanka, dihtiv, hreniv, buzkovychi, dorogtnychi, marcovuchi,
     drevyni, umanci, kolpyutiv, pidberezza, pechychvosty, rycovychi, trybki, samovola,
-    movnyki, merva
+    movnyki, merva, brany
 };
