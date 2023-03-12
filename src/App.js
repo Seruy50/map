@@ -50,7 +50,7 @@ function Information({villages, id, setShow }){
       <span></span><span></span>
     </div>
     <div className="infoTextBlock">
-      <p className="infoTitle"><b>{village.name}</b></p>
+      {village.name}
       {village.transcription ? village.transcription : ''}
       {village.note ? village.note : ''}
       {village.plus ? village.plus : ''}
