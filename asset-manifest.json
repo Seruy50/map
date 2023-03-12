@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/map/static/css/main.818fcca0.css",
-    "main.js": "/map/static/js/main.327aba6b.js",
+    "main.css": "/map/static/css/main.ae34efc0.css",
+    "main.js": "/map/static/js/main.d52278d1.js",
     "static/js/787.57d4d9af.chunk.js": "/map/static/js/787.57d4d9af.chunk.js",
     "static/media/49. kolpyutiv.wav": "/map/static/media/49. kolpyutiv.58781046090716c40347.wav",
     "static/media/51. pidberezza.wav": "/map/static/media/51. pidberezza.5544f7f2834432ec818e.wav",
@@ -10,6 +10,7 @@
     "static/media/14. jakovychi.wav": "/map/static/media/14. jakovychi.72f0d482fca03f4f52be.wav",
     "static/media/54. rycovychi.wav": "/map/static/media/54. rycovychi.dc7b84a640cd221311dd.wav",
     "static/media/26. dorogtnychi.wav": "/map/static/media/26. dorogtnychi.7dbdb83b7762b48cfdc2.wav",
+    "static/media/brany.wav": "/map/static/media/brany.60c40946059f802f30e2.wav",
     "static/media/21. dihtiv.wav": "/map/static/media/21. dihtiv.7713efb08c1fc7d1e381.wav",
     "static/media/20. buzhanka.wav": "/map/static/media/20. buzhanka.43542e97c03892dad5cd.wav",
     "static/media/29. marcovuchi.wav": "/map/static/media/29. marcovuchi.e1d8296014c1df501426.wav",
@@ -33,12 +34,12 @@
     "static/media/22. hreniv.wav": "/map/static/media/22. hreniv.592df43623f7326f6d73.wav",
     "static/media/12. zymne.wav": "/map/static/media/12. zymne.189cf6f73e6b3df5c5b3.wav",
     "index.html": "/map/index.html",
-    "main.818fcca0.css.map": "/map/static/css/main.818fcca0.css.map",
-    "main.327aba6b.js.map": "/map/static/js/main.327aba6b.js.map",
+    "main.ae34efc0.css.map": "/map/static/css/main.ae34efc0.css.map",
+    "main.d52278d1.js.map": "/map/static/js/main.d52278d1.js.map",
     "787.57d4d9af.chunk.js.map": "/map/static/js/787.57d4d9af.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.818fcca0.css",
-    "static/js/main.327aba6b.js"
+    "static/css/main.ae34efc0.css",
+    "static/js/main.d52278d1.js"
   ]
 }
