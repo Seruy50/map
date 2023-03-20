@@ -10,13 +10,12 @@ export function VillagesPoints({setShow, setCurrentId}){
     const currentInfo = (id) => {
         setCurrentId(id);
         setShow(true);
-
       }
 
     
   return <div className="map">
     <img src={map} alt="noMap"></img>
-    <Village typeOfMarker='red' top={0.5} left={32} currentInfo={currentInfo} id={1}/>
+    <Village typeOfMarker='yellow' top={0.5} left={32} currentInfo={currentInfo} id={1}/>
     <Village typeOfMarker='greenYellow' top={3} left={41} currentInfo={currentInfo} id={2}/>
     <Village typeOfMarker='red' top={6} left={52} currentInfo={currentInfo} id={3}/>
     <Village typeOfMarker='red' top={0} left={60} currentInfo={currentInfo} id={4}/>
@@ -84,8 +83,6 @@ export function VillagesPoints({setShow, setCurrentId}){
   </div>
 }
 
-
-
 function Village({top, left, typeOfMarker, currentInfo, id}){
     
     let village = villages.filter(item => item.id === id);
@@ -98,5 +95,4 @@ function Village({top, left, typeOfMarker, currentInfo, id}){
       <span className={typeOfMarker + ' villagesSpan'} style={{top: top + '%', left: left + '%'}}  onClick={() => currentInfo(id)}></span>
       <span className="nameOfVillage" style={{top: top - 0.66 + '%', left: left + 1.60 + '%'}}>{name}</span>
     </div>
-    
   }

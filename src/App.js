@@ -4,12 +4,9 @@ import {VillagesPoints} from './villagespoints'
 import {villages} from './villages'
 import './App.css'
 
-
 export default function App(){
   const [currentId, setCurrentId] = useState(1);
   const [show, setShow] = useState(false)
-
-  
 
   return <div>
          <h1>{'Карта №1. Перехід [е < '}<i>{'*е'}</i>{'] > [а] в наголошеній позиції'}</h1>
@@ -38,8 +35,6 @@ export default function App(){
           </div>
           </div>
 }
-
-
 
 function Information({villages, id, setShow }){
   
