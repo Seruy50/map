@@ -32,7 +32,7 @@ export default function App() {
               </div>
               <div className="legend__small__text">
                 <p>
-                  <b>[е]</b> <i>це́рква, ден', ве́чʼір</i>
+                  <b>[е]:</b> <i>ц[е́]рква, д[е]н', в[е́]чʼір</i>
                 </p>
               </div>
             </div>
@@ -42,7 +42,7 @@ export default function App() {
               </div>
               <div className="legend__small__text">
                 <p> 
-                  <b>[а]</b> <i>ца́рква, дан', ва́чʼір</i>
+                  <b>[а]:</b> <i>ц[а́]рква, д[а]н', в[а́]чʼір</i>
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function App() {
               </div>
               <div className="legend__big__text">
                 <p>  
-                  <b>[a]</b> у ненаголошеній позиції: <i>пшане́ц'я, сочави́ц'а</i>
+                  <b>[a]</b> у ненаголошеній позиції: <i><br />пш[а]не́ц'я, соч[а]ви́ц'а</i>
                 </p>
               </div>
             </div>
