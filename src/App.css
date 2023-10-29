@@ -16,7 +16,7 @@ h1 {
   position: relative;
   max-width: 70%;
   box-shadow: 12px 20px 27px -1px rgba(0,0,0,0.36);
-  left: -90px;
+  margin-left: 20px;
 }
 
 /* Legend block start*/
@@ -24,6 +24,7 @@ h1 {
   display: flex;
   flex-direction: column;
   min-width: 30%;
+  margin-left: 70px;
 }
 
 .legend {
@@ -119,7 +120,7 @@ img {
 /*Information block start*/
 
 .information {
-  position: absolute;
+  position: relative;
   width: 300px;
   max-height: 500px;
   overflow-y: auto;
@@ -241,6 +242,7 @@ img {
   padding-right: 25px;
   align-items: center;
   font: bold italic 1.8em/1em Georgia;
+  white-space:nowrap;
   opacity: 0;
   z-index:0;
 }
@@ -252,8 +254,8 @@ img {
 
 .madeBy {
   position: absolute;
-  bottom: 2%;
-  right: 2%;
+  bottom: 5px;
+  right: 20px;
   font: italic 15px/17px georgia;
   color: #cac1c1;
 }
@@ -266,4 +268,74 @@ img {
   font: bold italic 20px/20px georgia;
   display: inline-block;
   margin-left: 5px;
+}
+
+@media screen and (max-width: 1200px){
+  .infoLegendField {
+    margin-left: 10px;
+  }
+
+  .information {
+    position: absolute;
+    width: 270px;
+    max-height: 345px;
+    border: 6px solid rgb(166, 155, 195);
+  }
+
+  .legend__small {
+    display: flex;
+    width: 100%;
+    height: 25%;
+  }
+  
+  .legend__small__point{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+  }
+  
+  .legend__small__text{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .legend__small__text p {
+    font: 20px/20px Times;
+    margin-left: 10px;
+  }
+  
+  .legend__big__text p {
+    margin-left: 10px;
+    font: 20px/20px Times;
+  }
+  
+  .legendSpan {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .bigger {
+    width: 25px;
+    height: 25px;
+  }
+
+  .infoTitle {
+    text-align: center;
+    font: bold 20px/20px times;
+  }
+
+  .infoClose span {
+    width: 20px;
+  }
+  
+  h1 {
+    font: bold 25px/25px arial;
+  }
+
+  .nameOfVillage{
+    font: bold italic 1.3em/1em Georgia;
+  }
 }

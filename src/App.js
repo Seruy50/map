@@ -11,9 +11,7 @@ export default function App() {
   return (
     <div>
       <h1>
-        {"Карта №1. Перехід [е < "}
-        <i>{"*е"}</i>
-        {"] > [а] у наголошеній позиції"}
+        {"Карта 18. Зміна наголошеного [е] > [а]"}
       </h1>
       <div className="main">
         <div className="mapField">
@@ -77,8 +75,7 @@ export default function App() {
         </div>
       </div>
       <div className="madeBy">
-              <p><span>By:</span> Universal S. (Seruy50)</p>
-              <p>No rights reserved, 2023</p>
+              <p><span>By:</span> Universal S., Druzhuk I.</p>
       </div>
     </div>
   );
